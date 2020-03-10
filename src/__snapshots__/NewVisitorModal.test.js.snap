@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when !modalOpen 1`] = `
+<div
+  className="hidden modal container p-8 border flex flex-col"
+>
+  <div
+    className="p-2"
+  >
+    New Visitor
+  </div>
+  <div
+    className="p-2 text-xs"
+  >
+    Let's gather some information about this guest!
+  </div>
+  <div
+    className="flex justify-start"
+  >
+    <div
+      className="flex-1 m-2"
+    >
+      <input
+        className="p-2 text-sm border w-full"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="First Name (Required)"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="flex-1 m-2"
+    >
+      <input
+        className="p-2 text-sm border w-full"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Last Name (Required)"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <textarea
+    className="p-2 text-sm border m-2"
+    onChange={[Function]}
+    placeholder="Notes"
+    value=""
+  />
+  <div
+    className="flex justify-center"
+  >
+    <button
+      className="btn btn--outline ml-2"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+    <button
+      className="btn btn--brand ml-2"
+      onClick={[Function]}
+    >
+      Save
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders correctly when modalOpen 1`] = `
+<div
+  className="modal container p-8 border flex flex-col"
+>
+  <div
+    className="p-2"
+  >
+    New Visitor
+  </div>
+  <div
+    className="p-2 text-xs"
+  >
+    Let's gather some information about this guest!
+  </div>
+  <div
+    className="flex justify-start"
+  >
+    <div
+      className="flex-1 m-2"
+    >
+      <input
+        className="p-2 text-sm border w-full"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="First Name (Required)"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="flex-1 m-2"
+    >
+      <input
+        className="p-2 text-sm border w-full"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="Last Name (Required)"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <textarea
+    className="p-2 text-sm border m-2"
+    onChange={[Function]}
+    placeholder="Notes"
+    value=""
+  />
+  <div
+    className="flex justify-center"
+  >
+    <button
+      className="btn btn--outline ml-2"
+      onClick={[Function]}
+    >
+      Cancel
+    </button>
+    <button
+      className="btn btn--brand ml-2"
+      onClick={[Function]}
+    >
+      Save
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all entries 1`] = `
+<div
+  className="flex-grow h-screen overflow-y-scroll"
+>
+  <div
+    className="mx-auto"
+  >
+    <div
+      className="mt-8"
+    >
+      <div
+        className="flex items-center"
+      >
+        <div
+          className="filterText"
+        >
+          Filter By:
+        </div>
+        <div
+          className="filter"
+          onClick={[Function]}
+        >
+          Signed Out
+        </div>
+        <div
+          className="filterText"
+        >
+          |
+        </div>
+        <div
+          className="filter"
+          onClick={[Function]}
+        >
+          In Office
+        </div>
+      </div>
+      <table
+        className="w-full"
+      >
+        <thead>
+          <tr>
+            <th
+              className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest third"
+            >
+              Name
+            </th>
+            <th
+              className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest third"
+            >
+              Notes
+            </th>
+            <th
+              className="text-sm font-semibold text-grey-darker p-1 bg-grey-lightest third"
+            >
+              Signed out
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="align-baseline"
+        >
+          <tr>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              Johnny Duh
+            </td>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              Hello you!
+            </td>
+            <td
+              className="p-1 border-t border-grey-light font-mono text-xs"
+            >
+              <button
+                className="btn btn--smaller btn--outline"
+                onClick={[Function]}
+              >
+                Sign out
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              Helena Montana
+            </td>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              Who?
+            </td>
+            <td
+              className="p-1 border-t border-grey-light font-mono text-xs"
+            >
+              <button
+                className="btn btn--smaller btn--outline"
+                onClick={[Function]}
+              >
+                Sign out
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              Mable Able
+            </td>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              YEs I CaN!
+            </td>
+            <td
+              className="p-1 border-t border-grey-light font-mono text-xs"
+            >
+              Mar 9, 2020 2:25 AM
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders only Helena Montana with searchValue 1`] = `
+<div
+  className="flex-grow h-screen overflow-y-scroll"
+>
+  <div
+    className="mx-auto"
+  >
+    <div
+      className="mt-8"
+    >
+      <div
+        className="flex items-center"
+      >
+        <div
+          className="filterText"
+        >
+          Filter By:
+        </div>
+        <div
+          className="filter"
+          onClick={[Function]}
+        >
+          Signed Out
+        </div>
+        <div
+          className="filterText"
+        >
+          |
+        </div>
+        <div
+          className="filter"
+          onClick={[Function]}
+        >
+          In Office
+        </div>
+      </div>
+      <table
+        className="w-full"
+      >
+        <thead>
+          <tr>
+            <th
+              className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest third"
+            >
+              Name
+            </th>
+            <th
+              className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest third"
+            >
+              Notes
+            </th>
+            <th
+              className="text-sm font-semibold text-grey-darker p-1 bg-grey-lightest third"
+            >
+              Signed out
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="align-baseline"
+        >
+          <tr>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              Helena Montana
+            </td>
+            <td
+              className="p-2 border-t border-grey-light font-mono text-xs"
+            >
+              Who?
+            </td>
+            <td
+              className="p-1 border-t border-grey-light font-mono text-xs"
+            >
+              <button
+                className="btn btn--smaller btn--outline"
+                onClick={[Function]}
+              >
+                Sign out
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
